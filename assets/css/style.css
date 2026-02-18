@@ -136,7 +136,7 @@ main{
 }
 
 .clear{
-    grid-column: span 2; /* ocupa 2 colunas */
+    grid-column: span 1; /* ocupa 2 colunas */
     background: var(--clear-bg);
     color: black;
     border-radius: 10px ;
@@ -146,6 +146,12 @@ main{
     grid-column: span 2;
     border-radius: 10px;
     
+}
+.backspace{
+    grid-column: span 1;
+    border-radius: 10px;
+    background: var(--clear-bg);
+    color: black;
 }
 
 .enter{
